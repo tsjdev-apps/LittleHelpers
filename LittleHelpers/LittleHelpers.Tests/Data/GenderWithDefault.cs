@@ -2,12 +2,9 @@
 
 namespace LittleHelpers.Tests.Data
 {
-
-
     public enum GenderWithDefault
     {
         Female,
-        [DefaultValue(Male)]
-        Male
+        [DefaultValue(Male)] Male
     }
 }

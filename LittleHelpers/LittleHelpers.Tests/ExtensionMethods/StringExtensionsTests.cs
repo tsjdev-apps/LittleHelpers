@@ -47,6 +47,5 @@ namespace LittleHelpers.Tests.ExtensionMethods
 
             Assert.IsTrue(isNull);
         }
-
     }
 }

@@ -8,7 +8,7 @@ namespace LittleHelpers.ExtensionMethods
     public static class EnumerableExtensions
     {
         /// <summary>
-        /// Picks randomly an element of a list.
+        ///     Picks randomly an element of a list.
         /// </summary>
         /// <typeparam name="T">The type.</typeparam>
         /// <param name="source">The source.</param>
@@ -18,7 +18,7 @@ namespace LittleHelpers.ExtensionMethods
         }
 
         /// <summary>
-        /// Picks randomly a specified amount of elements of a list.
+        ///     Picks randomly a specified amount of elements of a list.
         /// </summary>
         /// <typeparam name="T">The type.</typeparam>
         /// <param name="source">The source.</param>
@@ -29,7 +29,7 @@ namespace LittleHelpers.ExtensionMethods
         }
 
         /// <summary>
-        /// Shuffles the specified source.
+        ///     Shuffles the specified source.
         /// </summary>
         /// <typeparam name="T">The type.</typeparam>
         /// <param name="source">The source.</param>
@@ -39,7 +39,7 @@ namespace LittleHelpers.ExtensionMethods
         }
 
         /// <summary>
-        /// Converts an <c>IEnumerable</c> to an observable collection.
+        ///     Converts an <c>IEnumerable</c> to an observable collection.
         /// </summary>
         /// <typeparam name="T">The type.</typeparam>
         /// <param name="source">The source.</param>
@@ -49,7 +49,7 @@ namespace LittleHelpers.ExtensionMethods
         }
 
         /// <summary>
-        /// Determines whether this instance has items.
+        ///     Determines whether this instance has items.
         /// </summary>
         /// <typeparam name="T">The type.</typeparam>
         /// <param name="source">The source.</param>
@@ -59,7 +59,7 @@ namespace LittleHelpers.ExtensionMethods
         }
 
         /// <summary>
-        /// Determines whether this instance is emtpy.
+        ///     Determines whether this instance is emtpy.
         /// </summary>
         /// <typeparam name="T">The type.</typeparam>
         /// <param name="source">The source.</param>
@@ -69,7 +69,7 @@ namespace LittleHelpers.ExtensionMethods
         }
 
         /// <summary>
-        /// Determines whether the <c>IEnumerable</c> [is null or emtpy].
+        ///     Determines whether the <c>IEnumerable</c> [is null or emtpy].
         /// </summary>
         /// <typeparam name="T">The type.</typeparam>
         /// <param name="source">The source.</param>
@@ -82,7 +82,7 @@ namespace LittleHelpers.ExtensionMethods
         }
 
         /// <summary>
-        /// Calls the provided action on each element in the <c>IEnumerable</c>.
+        ///     Calls the provided action on each element in the <c>IEnumerable</c>.
         /// </summary>
         /// <typeparam name="T">The type.</typeparam>
         /// <param name="source">The source.</param>
@@ -94,7 +94,7 @@ namespace LittleHelpers.ExtensionMethods
         }
 
         /// <summary>
-        /// Adds a range to a list.
+        ///     Adds a range to a list.
         /// </summary>
         /// <typeparam name="T">The type</typeparam>
         /// <param name="source">The source.</param>

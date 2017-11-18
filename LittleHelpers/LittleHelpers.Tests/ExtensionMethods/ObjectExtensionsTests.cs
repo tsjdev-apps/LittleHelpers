@@ -6,7 +6,6 @@ namespace LittleHelpers.Tests.ExtensionMethods
     [TestClass]
     public class ObjectExtensionsTests
     {
-
         [TestMethod]
         public void ObjectExtensions_IsNull_ReturnsTrueIfObjectIsNull()
         {
@@ -65,7 +64,7 @@ namespace LittleHelpers.Tests.ExtensionMethods
         [TestMethod]
         public void ObjectExtensions_AsString_ReturnsStringWithLengthGreaterThan0()
         {
-            var testObject = new[] { "1", "2" };
+            var testObject = new[] {"1", "2"};
 
             var str = testObject.AsString();
 

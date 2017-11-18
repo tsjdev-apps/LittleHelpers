@@ -9,7 +9,7 @@ namespace LittleHelpers.Services
     public static class HttpService
     {
         /// <summary>
-        /// Gets the web request asynchronous.
+        ///     Gets the web request asynchronous.
         /// </summary>
         /// <typeparam name="T">The type.</typeparam>
         /// <param name="url">The URL.</param>

@@ -6,7 +6,7 @@ namespace LittleHelpers.ExtensionMethods
     public static class ExceptionExtensions
     {
         /// <summary>
-        /// Logs an exception as debug output.
+        ///     Logs an exception as debug output.
         /// </summary>
         /// <param name="exception">The exception.</param>
         public static void LogDebug(this Exception exception)

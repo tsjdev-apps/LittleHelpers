@@ -9,7 +9,7 @@ namespace LittleHelpers.Helpers
     public static class EnumHelper
     {
         /// <summary>
-        /// Gets the default value of an <c>enum</c>.
+        ///     Gets the default value of an <c>enum</c>.
         /// </summary>
         /// <typeparam name="T">The type.</typeparam>
         /// <returns></returns>
@@ -20,11 +20,11 @@ namespace LittleHelpers.Helpers
             if (defaultValue == null)
                 return default(T);
 
-            return (T)Enum.Parse(typeof(T), defaultValue.Name);
+            return (T) Enum.Parse(typeof(T), defaultValue.Name);
         }
 
         /// <summary>
-        /// Gets the enum as enumarable.
+        ///     Gets the enum as enumarable.
         /// </summary>
         /// <typeparam name="T">The type.</typeparam>
         /// <returns></returns>

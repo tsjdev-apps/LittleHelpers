@@ -38,6 +38,5 @@ namespace LittleHelpers.Tests.Helpers
             Assert.AreEqual(2, enumValues.Count);
             Assert.AreEqual(Gender.Female, enumValues.First());
         }
-
     }
 }
