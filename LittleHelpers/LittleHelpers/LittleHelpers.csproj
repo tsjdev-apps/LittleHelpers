@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Thomas Sebastian Jensen</Authors>
+    <Company>tsjdev-apps.de</Company>
+    <Description>Collection of useful code snippets which can be used in many different C# or .NET applications.</Description>
+    <Copyright>© Thomas Sebastian Jensen | 2017</Copyright>
+    <PackageLicenseUrl>https://github.com/tsjdev-apps/LittleHelpers/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/tsjdev-apps/LittleHelpers/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tsjdev-apps/LittleHelpers/</RepositoryUrl>
+    <PackageTags>Helpers ExtensionMethods Enum String Object Enumerable HttpService</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="System.Net.Http" Version="4.3.3" />
+  </ItemGroup>
+
+</Project>
