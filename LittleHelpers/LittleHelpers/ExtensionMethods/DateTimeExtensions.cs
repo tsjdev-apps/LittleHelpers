@@ -10,7 +10,7 @@ namespace LittleHelpers.ExtensionMethods
         /// <param name="dateTime">The date time.</param>
         public static int ToUnixTimestamp(this DateTime dateTime)
         {
-            return (int)Math.Truncate(dateTime.ToUniversalTime().Subtract(new DateTime(1970, 1, 1)).TotalSeconds);
+            return (int)Math.Truncate(dateTime.Subtract(new DateTime(1970, 1, 1)).TotalSeconds);
         }
     }
 }
