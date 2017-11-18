@@ -12,6 +12,7 @@
     <RepositoryUrl>https://github.com/tsjdev-apps/LittleHelpers/</RepositoryUrl>
     <PackageTags>Helpers ExtensionMethods Enum String Object Enumerable HttpService</PackageTags>
     <NeutralLanguage>en</NeutralLanguage>
+    <PackageId>LittleHelpersSharp</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
