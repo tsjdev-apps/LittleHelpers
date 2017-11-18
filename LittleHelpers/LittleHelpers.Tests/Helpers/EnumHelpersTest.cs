@@ -35,7 +35,7 @@ namespace LittleHelpers.Tests.Helpers
             var enumValues = EnumHelper.GetEnumAsEnumarable<Gender>().ToList();
 
             // assert
-            Assert.AreEqual(2, enumValues.Count());
+            Assert.AreEqual(2, enumValues.Count);
             Assert.AreEqual(Gender.Female, enumValues.First());
         }
 
