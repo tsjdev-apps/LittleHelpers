@@ -54,6 +54,7 @@
     <Compile Include="ExtensionMethods\DateTimeExtensionsTests.cs" />
     <Compile Include="ExtensionMethods\EnumerableExtensionsTests.cs" />
     <Compile Include="ExtensionMethods\ObjectExtensionsTests.cs" />
+    <Compile Include="ExtensionMethods\StringExtensionsTests.cs" />
     <Compile Include="Helpers\EnumHelpersTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
