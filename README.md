@@ -4,7 +4,8 @@ Collection of helpful methods/functions for nearly every C# project.
 
 ## Download
 
-This package is available on [NuGet](https://www.nuget.org/packages/LittleHelpersSharp/) or search for `LittleHelpersSharp`.
+This package is available on NuGet as `LittleHelpersSharp`:
+[![Nuget](https://img.shields.io/nuget/v/LittleHelpersSharp)](https://www.nuget.org/packages/LittleHelpersSharp/)
 
 ## Compatible with
 
